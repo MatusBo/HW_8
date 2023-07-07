@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>HW_8</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="investment">
+        <h3>інвестиції</h3>
+        <h1>зробити<br />— інвестиції у програму</h1>
+      </section>
+      <main>
+        <section class="choice">
+          <h3>виберіть спосіб оплати</h3>
+        </section>
+        <section class="info">
+          <form class="payment" action="">
+            <label><input type="radio" name="payment" />Банківська карта</label>
+            <label><input type="radio" name="payment" />PayPal</label>
+            <label><input type="radio" name="payment" />Банківська платіжна квитанція</label>
+          </form>
+          <h3>Банківська карта</h3>
+          <form action="">
+            <div class="sum">
+              <label><input type="radio" name="sum" />50000</label>
+              <label><input type="radio" name="sum" />30000</label>
+              <label><input type="radio" name="sum" />10000</label>
+              <label><input type="radio" name="sum" />1000</label>
+            </div>
+            <div class="other">
+              <input type="number" placeholder="Інша сума" step="1" min="1" max="1000000" name="" />
+            </div>
+            <div class="regularity">
+              <label><input type="radio" name="regularity" />Щомісячно</label>
+              <label><input type="radio" name="regularity" />Одноразово</label>
+            </div>
+          </form>
+          <div class="data">
+            <h3>ім’я</h3>
+            <form action="">
+                <input type="text" placeholder="Напишіть Ваше ім’я" name="first-name" />
+            </form>
+
+            <h3>Email</h3>
+            <form action="">
+                <input type="email" placeholder="Напишіть Вашу електронну адресу" name="Email" />
+                <br />
+                <label>
+                    <input type="checkbox" />Я приймаю <a href="">Договір оферти</a></label>
+                <br />
+                <label>
+                    <input type="checkbox" />Я приймаю <a href="">Угоду про використання персональних даних</a></label>
+                <br />
+                <button>Відправити</button>
+            </form>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

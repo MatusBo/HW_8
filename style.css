@@ -1,0 +1,140 @@
+@font-face {
+  font-family: "BasisGrotesquePro";
+  src: url(./fonts/BasisGrotesquePro-Bold.woff2) format("woff2"),
+    url(./fonts/BasisGrotesquePro-Bold.woff) format("woff");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "BasisGrotesquePro";
+  src: url(./fonts/BasisGrotesquePro-Light.woff2) format("woff2"),
+    url(./fonts/BasisGrotesquePro-Light.woff) format("woff");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "BasisGrotesquePro";
+  src: url(./fonts/BasisGrotesquePro-Regular.woff2) format("woff2"),
+    url(./fonts/BasisGrotesquePro-Regular.woff) format("woff");
+  font-weight: 400;
+}
+
+body {
+  background-color: #ffffff;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.investment {
+  margin: 10vh auto 3vh 10vw;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 78vh;
+  margin: 0;
+}
+
+.payment {
+  margin: 0 auto 5vh 0;
+}
+
+.div {
+  margin: 0;
+}
+
+.other {
+  margin: 0 auto 2vh auto;
+}
+
+.regularity {
+  margin: 0 auto 2vh auto;
+}
+
+h3 {
+  font-family: "BasisGrotesquePro";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0, 03em;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 0 auto 2vh auto;
+}
+
+.investment h3 {
+  color: #0536fc;
+}
+
+.choice h3 .info h3 {
+  color: black;
+}
+
+.investment h1 {
+  color: black;
+  font-family: "BasisGrotesquePro";
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 42px;
+  letter-spacing: -0, 03em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+label {
+  font-family: "BasisGrotesquePro";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  opacity: 60%;
+}
+
+a {
+  color: #0536fc;
+  text-decoration: none;
+}
+
+.sum label,
+a {
+  opacity: none;
+}
+
+.choice {
+  grid-template: 1 / 2;
+  margin: 0;
+  padding-top: 2vh;
+  padding-left: 10vw;
+}
+
+.info {
+  grid-template: 2 / 3;
+  margin: 0;
+  padding-top: 2vh;
+  padding-left: 2vw;
+}
+
+.data form [type="text"] {
+border: none;
+border-bottom: 1px solid black;
+width: 30vw;
+padding-bottom: 1vh;
+}
+
+.data form [type="email"] {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 30vw;
+    padding-bottom: 1vh;
+    }
+
+    input {
+        margin-bottom: 3vh;
+    }
