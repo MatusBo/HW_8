@@ -122,19 +122,20 @@ a {
 }
 
 .data form [type="text"] {
-border: none;
-border-bottom: 1px solid black;
-width: 30vw;
-padding-bottom: 1vh;
+  border: none;
+  border-bottom: 1px solid black;
+  width: 30vw;
+  padding-bottom: 1vh;
 }
 
 .data form [type="email"] {
-    border: none;
-    border-bottom: 1px solid black;
-    width: 30vw;
-    padding-bottom: 1vh;
-    }
+  border: none;
+  border-bottom: 1px solid black;
+  width: 30vw;
+  padding-bottom: 1vh;
+}
 
-    input {
-        margin-bottom: 3vh;
-    }
+input {
+  margin-bottom: 3vh;
+  margin-right: 1vw;
+}
