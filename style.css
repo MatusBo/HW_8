@@ -43,18 +43,24 @@ main {
 
 .payment {
   margin: 0 auto 5vh 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3vw;
+
 }
 
-.div {
-  margin: 0;
+.sum {
+  margin: 0 auto;
 }
 
 .other {
-  margin: 0 auto 2vh auto;
+  margin: 0 auto;
 }
 
 .regularity {
-  margin: 0 auto 2vh auto;
+  margin: 3vh auto 5vh 0;
+  display: flex;
+  gap: 3vw;
 }
 
 h3 {
@@ -102,6 +108,16 @@ a {
   text-decoration: none;
 }
 
+.payment input[type="radio"] {
+  margin-right: 1vw;
+  margin-left: 0;
+}
+
+.regularity input[type="radio"] {
+  margin-right: 1vw;
+  margin-left: 0;
+}
+
 .sum label,
 a {
   opacity: none;
@@ -111,10 +127,15 @@ a {
   display: none;
 }
 
+.other input {
+  width: 43vw;
+  height: 4vh;
+}
+
 .sum label {
   display: inline-block;
   border: 1px solid black;
-  padding: 3vh 3vw;
+  padding: 1.5vh 3vw;
   margin: 0;
 }
 
@@ -141,6 +162,7 @@ a {
   border-bottom: 1px solid black;
   width: 30vw;
   padding-bottom: 1vh;
+  margin-bottom: 5vh;
 }
 
 .data form [type="email"] {
@@ -148,11 +170,11 @@ a {
   border-bottom: 1px solid black;
   width: 30vw;
   padding-bottom: 1vh;
+  margin-bottom: 5vh;
 }
 
-input {
-  margin-bottom: 3vh;
-  margin-right: 1vw;
+.data form [type="checkbox"] {
+  margin: 2vh 1vw 0;
 }
 
 button {
@@ -166,4 +188,5 @@ button {
   line-height: 24px;
   letter-spacing: -0.03em;
   border: #0536fc;
+  margin-top: 5vh;
 }
