@@ -108,18 +108,18 @@ a {
 }
 
 .sum input[type="radio"] {
-    display: none;
+  display: none;
 }
 
 .sum label {
-    display: inline-block;
-    border: 1px solid black;
-    padding: 3vh 3vw;
-    margin: 0;
+  display: inline-block;
+  border: 1px solid black;
+  padding: 3vh 3vw;
+  margin: 0;
 }
 
 .sum input:checked + label {
-    background-color: #0536fc;
+  background-color: #0536fc;
 }
 
 .choice {
@@ -155,4 +155,15 @@ input {
   margin-right: 1vw;
 }
 
-
+button {
+  background-color: #0536fc;
+  color: #ffffff;
+  padding: 2vh 5vw;
+  text-transform: uppercase;
+  font-family: "BasisGrotesquePro";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  border: #0536fc;
+}
