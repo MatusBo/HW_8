@@ -100,7 +100,7 @@ label {
   line-height: 24px;
   letter-spacing: -0.03em;
   text-align: left;
-  opacity: 60%;
+  color: rgb(174, 173, 173);
 }
 
 a {
@@ -130,11 +130,12 @@ a {
 .other input {
   width: 43vw;
   height: 4vh;
+  padding-left: 2vh;
 }
 
 .sum label {
   display: inline-block;
-  border: 1px solid black;
+  border: 1px solid ;
   padding: 1.5vh 3vw;
   margin: 0;
 }
@@ -159,22 +160,24 @@ a {
 
 .data form [type="text"] {
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid grey;
   width: 30vw;
   padding-bottom: 1vh;
   margin-bottom: 5vh;
+  margin-left: 0;
 }
 
 .data form [type="email"] {
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid grey;
   width: 30vw;
   padding-bottom: 1vh;
   margin-bottom: 5vh;
+  margin-left: 0;
 }
 
 .data form [type="checkbox"] {
-  margin: 2vh 1vw 0;
+  margin: 2vh 1vw 0 0;
 }
 
 button {
